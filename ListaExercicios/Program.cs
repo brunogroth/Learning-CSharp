@@ -6,10 +6,11 @@ namespace ListaExercicios
     {
         static void Main(string[] args)
         {
-            YourAge.CalculateAge();
+            // YourAge.CalculateAge();
             // CalculaArea.Calcula();
             // sConversaoMonetaria.Calcula();
-
+            // ComparaNumero.Compara();
+            Fibonacci.Calcula();
         }
     }
 }
