@@ -10,6 +10,7 @@ public class ComparaNumero{
             Console.WriteLine("Now, Inform the second number\n");
             double v2 = Convert.ToDouble(Console.ReadLine());
 
+
             if(v1>v2){
                 Console.WriteLine($"o PRIMEIRO valor informado ({v1}) é o maior.");
 
