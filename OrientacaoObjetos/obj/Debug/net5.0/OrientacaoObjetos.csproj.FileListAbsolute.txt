@@ -1,0 +1,16 @@
+C:\workspace\c-sharp\OrientacaoObjetos\bin\Debug\net5.0\OrientacaoObjetos.exe
+C:\workspace\c-sharp\OrientacaoObjetos\bin\Debug\net5.0\OrientacaoObjetos.deps.json
+C:\workspace\c-sharp\OrientacaoObjetos\bin\Debug\net5.0\OrientacaoObjetos.runtimeconfig.json
+C:\workspace\c-sharp\OrientacaoObjetos\bin\Debug\net5.0\OrientacaoObjetos.runtimeconfig.dev.json
+C:\workspace\c-sharp\OrientacaoObjetos\bin\Debug\net5.0\OrientacaoObjetos.dll
+C:\workspace\c-sharp\OrientacaoObjetos\bin\Debug\net5.0\ref\OrientacaoObjetos.dll
+C:\workspace\c-sharp\OrientacaoObjetos\bin\Debug\net5.0\OrientacaoObjetos.pdb
+C:\workspace\c-sharp\OrientacaoObjetos\obj\Debug\net5.0\OrientacaoObjetos.csproj.AssemblyReference.cache
+C:\workspace\c-sharp\OrientacaoObjetos\obj\Debug\net5.0\OrientacaoObjetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\c-sharp\OrientacaoObjetos\obj\Debug\net5.0\OrientacaoObjetos.AssemblyInfoInputs.cache
+C:\workspace\c-sharp\OrientacaoObjetos\obj\Debug\net5.0\OrientacaoObjetos.AssemblyInfo.cs
+C:\workspace\c-sharp\OrientacaoObjetos\obj\Debug\net5.0\OrientacaoObjetos.csproj.CoreCompileInputs.cache
+C:\workspace\c-sharp\OrientacaoObjetos\obj\Debug\net5.0\OrientacaoObjetos.dll
+C:\workspace\c-sharp\OrientacaoObjetos\obj\Debug\net5.0\ref\OrientacaoObjetos.dll
+C:\workspace\c-sharp\OrientacaoObjetos\obj\Debug\net5.0\OrientacaoObjetos.pdb
+C:\workspace\c-sharp\OrientacaoObjetos\obj\Debug\net5.0\OrientacaoObjetos.genruntimeconfig.cache
