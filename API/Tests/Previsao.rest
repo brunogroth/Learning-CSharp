@@ -1,0 +1,8 @@
+### Requisitar Clima
+GET https://localhost:5001/WeatherForecast
+
+### Requisitar Endereço 
+GET https://viacep.com.br/ws/01001000/json/
+
+### User
+GET https://localhost:5001/api/user/list
