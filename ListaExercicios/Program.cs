@@ -10,7 +10,8 @@ namespace ListaExercicios
             // CalculaArea.Calcula();
             // sConversaoMonetaria.Calcula();
             // ComparaNumero.Compara();
-            Fibonacci.Calcula();
+            // Fibonacci.Calcula();
+            OrdenarValores.Ordenar();
         }
     }
 }
