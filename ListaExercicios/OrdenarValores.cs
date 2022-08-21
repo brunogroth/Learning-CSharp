@@ -41,7 +41,7 @@ namespace ListaExercicios{
                     array[i] = valor3;
                     Console.WriteLine("trocou anterior");
                     }
-                }
+                } 
             }
             
             for(int p=0;p<=10;p++){
