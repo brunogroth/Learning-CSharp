@@ -5,14 +5,14 @@ namespace ListaExercicios
 {
     class Program
     {
-        static Boolean Validate(ArrayList array){
+        static Boolean Validate(ArrayList array, int limit){
             int valida = 0;
             int valor2 = 0;
-            for(int i=0; i<=10; i++){
+            for(int i=0; i<=limit; i++){
                 int proximo = i+1;
 
                 int valor1= Convert.ToInt32(array[i]);
-             if(proximo<=10){
+             if(proximo<=limit){
                  valor2 = Convert.ToInt32(array[proximo]);
 
             }
@@ -21,7 +21,7 @@ namespace ListaExercicios
             }
             
             }
-            if(valida >= 11){
+            if(valida >= limit+1){
                 return true;
             } else{
             return false;
@@ -29,34 +29,73 @@ namespace ListaExercicios
         }
         static void Main(string[] args)
         {
+            int summary = 1;
+            //Customer/User reception
+            Console.WriteLine("Hi dear! Welcome to Bruno Groth C# exercices repository.\nHere you can find all my C# logic/algorythms Exercices.\n");
+            Console.WriteLine("######## SUMMARY ########");
+            Console.WriteLine($"Press {summary} to run Rectangle Area Calculator"); 
+            summary++; 
+            Console.WriteLine($"Press {summary} to run Currency Converter");
+            summary++;
+            Console.WriteLine($"Press {summary} to run Fibonacci");
+            summary++;
+            Console.WriteLine($"Press {summary} to run Age Validator");
+            summary++;
+            Console.WriteLine($"Press {summary} to run Number Comparator");
+            summary++;
+            Console.WriteLine($"Press {summary} to run Number Raffle and Ordenator*");
+            summary++;
+            Console.WriteLine($"*This one was a self-challenge that I made by hand.");
+            int decision = Convert.ToInt32(Console.ReadLine());
 
-            // YourAge.CalculateAge();
-            // CalculaArea.Calcula();
-            // sConversaoMonetaria.Calcula();
-            // ComparaNumero.Compara();
-            // Fibonacci.Calcula();
+            switch (decision){
 
-            Random random = new Random();
-            ArrayList array = new ArrayList();
-            int limite = 1000;
+                case 1:
+                    CalculaArea.Calcula();
+                break;
+                case 2:
+                    CurrencyConverter.Calcula();
+                break;
+                case 3:
+                    Fibonacci.Calcula();
+                break;
+                case 4:
+                    YourAge.CalculateAge();
+                break;
+                case 5:
+                    ComparaNumero.Compara();
+                break;
+                case 6:
+                    Console.WriteLine("Inform how many numbers will be drawn for raffle and ordenate.");
+                    int limit = Convert.ToInt32(Console.ReadLine());
+                    int repeatCounter=0;
+                    Random random = new Random();
+                    ArrayList array = new ArrayList();
+            
+                    for(int i=0;i<=limit;i++){
+                        array.Add(random.Next(1000));
+                    }
+            
+                    for(int i=0;i<=limit;i++){
+                    Console.WriteLine($"Valor {i}:{array[i]}");
+                    }
+            
+                    do{
+                        OrdenarValores.Ordenar(array, limit);
+                        repeatCounter++;
+                    } while(Validate(array, limit) == false);
 
-            for(int i=0;i<=10;i++){
-                array.Add(random.Next(limite));
+                    Console.WriteLine($"Posição Corrigida:");
+                    
+                    for(int p=0;p<=limit;p++){
+                        Console.WriteLine($"Valor {p}: {array[p]}");
+                    }
+                    Console.WriteLine($"Ordenator algorithm run {repeatCounter} times to order {limit} values.");
+                break;
+                default:
+                    Console.WriteLine("Invalid value. Please try again.");
+                break;       
             }
-
-            for(int i=0;i<=10;i++){
-            Console.WriteLine($"Valor {i}:{array[i]}");
-            }
-
-            do{
-                OrdenarValores.Ordenar(array);
-            } while(Validate(array) == false);
-
-        Console.WriteLine($"Posição Corrigida:");
-        
-        for(int p=0;p<=10;p++){
-            Console.WriteLine($"Valor {p}: {array[p]}");
-        }
     }
 }
 }

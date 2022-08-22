@@ -2,7 +2,7 @@ using System;
 
 namespace ListaExercicios
 {
-    public class ConversaoMonetaria
+    public class CurrencyConverter
     {
     public static void Calcula(){
             Console.WriteLine("CONVERSOR DE MOEDAS");
