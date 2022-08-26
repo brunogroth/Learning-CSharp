@@ -1,0 +1,19 @@
+### Exemplo: Requisitar Endereço 
+GET https://viacep.com.br/ws/01001000/json/
+
+### User List
+GET https://localhost:5001/api/user/list
+
+### POST https://localhost:5001/api/user/register/user@gmail.com/pass123
+
+### User Create
+POST https://localhost:5001/api/user/register
+Content-Type: application/json
+
+{
+    "login": "login123",
+    "password": "password"
+}
+
+### Search
+GET https://localhost:5001/api/user/list/login123
